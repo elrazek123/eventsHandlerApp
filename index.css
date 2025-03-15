@@ -1,0 +1,61 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/399/044/original/timer-icon-free-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.not
+{
+    position: absolute;
+    top: -1000px;
+    width: 75%;
+    height: 200px;
+    background-color: deeppink;
+    color: white;
+    left: 15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+body 
+{
+    position: relative;
+}
+.events-container-events
+{
+    padding: 40px 0px;
+}
+.event
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+footer
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+
+}
